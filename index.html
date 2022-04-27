@@ -12,16 +12,17 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <!--Кастомные стили-->
-    <link rel="stylesheet" href="./сss/styles.css">
+    <!-- <link rel="stylesheet" href="./сss/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- Header -->
         <header class="header">
-            <div class="container header--flex">
-                <a class="logo" href="./index.html">Web<span class="header__logo">Studio</span></a>
+            <div class="header__flex container">
+                <a class="header__logo" href="./index.html">Web<span class="header__logo--inverse">Studio</span></a>
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li class="nav__item"><a class="nav__link nav__accent" href="./index.html">Студия</a></li>
+                        <li class="nav__item"><a class="nav__link nav__link--accent" href="./index.html">Студия</a></li>
                         <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфолио</a></li>
                         <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
                     </ul>
@@ -137,7 +138,7 @@
                         <div class="team__employee">
                             <h3 class="team__name">Игорь Демьяненко</h3>
                             <p class="team__position">Product Designer</p>
-                        <ul class="social__list">
+                        <ul class="social">
                             <li class="social__item">
                                 <a href="" class="social__link">
                                 <svg class="social__icon" width="20px" height="20px">
@@ -177,7 +178,7 @@
                         <div class="team__employee">
                             <h3 class="team__name">Ольга Репина</h3>
                             <p class="team__position">Frontend Developer</p>
-                            <ul class="social__list">
+                            <ul class="social">
                                 <li class="social__item">
                                     <a href="" class="social__link">
                                         <svg class="social__icon" width="20px" height="20px">
@@ -217,7 +218,7 @@
                         <div class="team__employee">
                             <h3 class="team__name">Николай Тарасов</h3>
                             <p class="team__position">Marketing</p>
-                            <ul class="social__list">
+                            <ul class="social">
                                 <li class="social__item">
                                     <a href="" class="social__link">
                                         <svg class="social__icon" width="20px" height="20px">
@@ -258,7 +259,7 @@
                         <div class="team__employee">
                             <h3 class="team__name">Михаил Ермаков</h3>
                             <p class="team__position">UI Designer</p>
-                            <ul class="social__list">
+                            <ul class="social">
                                 <li class="social__item">
                                     <a href="" class="social__link">
                                         <svg class="social__icon" width="20px" height="20px">
@@ -355,7 +356,7 @@
 
         <div class="footer__elements container">
             <div class="footer__contacts">
-            <a class="logo" href="./index.html">Web<span class="footer__logo">Studio</span></a>
+            <a class="footer__logo" href="./index.html">Web<span class="footer__logo--inverse">Studio</span></a>
             <address class="address">
                 <ul class="address__list">
                     <li class="address__item"><a class="address__link" href="https://goo.gl/maps/mo6r6NQ5wz6rkShH9" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
