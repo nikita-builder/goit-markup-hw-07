@@ -1,11 +1,7 @@
 .benefits {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    display: flex;
+    min-width: 270px;
 
-    &__list {
-        display: flex;
-        min-width: 270px;
-    }
     &__item {
         margin-right: 30px;
     }

@@ -11,7 +11,31 @@
     overflow: hidden;
 }
 
-.container {
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px
+}
+
+.section--no_padding_top {
+    padding-top: 0;
+}
+
+.section--other_background{
+    background-color: $secondary-light-background;
+}
+
+.section__title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
+    color: $primary-dark-txt;
+}
+.container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;

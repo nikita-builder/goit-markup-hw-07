@@ -50,6 +50,11 @@
     margin-right: 30px;
     margin-bottom: 30px;
     }
+    &__item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
     &__item:nth-child(n + 6) {
     margin-bottom: 0;
     }

@@ -1,19 +1,6 @@
-.services {
-    padding-bottom: 94px;
-    &__title {
-        font-family: $main-font;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-        letter-spacing: 0.03em;
-        margin-bottom: 50px;
-    
-        color: $primary-dark-txt;
-    }
-    &__list {
+    .services {
         display: flex;
-    }
+
     &__item {
         position: relative;
         margin-right: 30px;
